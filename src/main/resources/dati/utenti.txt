@@ -1,0 +1,30 @@
+32
+1,Amministratore,De Amministratoris,ad,ad,amministratore
+2,Giuseppina,Villa,villaGpeople,96b6ANtyJE8Lu4yK,cliente,DYSVPP86E07I514I,1960-08-18,RT7325J,2023-05-04
+3,Laura,Colombo,LauraColombo63,kV27LxFUJGDw3x4u,cliente,JBBWNG47S58A593V,1961-05-11,HBF43786T,2023-06-14
+4,Anna,Sala,salanna,yMxtJcTAsF5kqe88,cliente,TLLBST79M15I535A,1966-02-11,725GOBJ,2023-06-14
+5,Angela,Fumagalli,nonFumoGalli,5f39Kf4zkS9aGjZN,cliente,FTSPCS82R53G515A,1969-07-17,876HFA,2024-07-17
+6,Francesca,Magni,MagniFrancesca,2ArG8vWp52cR5hB5,cliente,GZYSLH92P53L881N,1972-08-31,7652TEFUI,2024-09-03
+7,Elena,Mauri,MauriEle,H3Mgjz6tgWftPXcy,cliente,XPRVQN44H12D227V,1973-01-13,752GIAF,2025-02-27
+8,Paola,Motta,paolaM,mP636fA7HMwjBdgU,cliente,RLGSCN59S22G482J,1976-05-19,7835UHG,2025-03-17
+9,Silvia,Ronchi,ahh ma è ronchi,2U6ngJwWC7r68KVX,cliente,CZXYZD70E59C209D,1987-02-07,872HGF,2025-03-24
+10,Chiara,Beretta,caldaie non pistole,4S8Q2EprpyM4FmxG,cliente,ZVXVCS33C44A085H,1990-12-17,876VYDA,2025-05-22
+11,Giuseppe,Passoni,passGiusep,uEyjffftXSMj33Q8,cliente,VMTFRZ68B04L611D,1997-03-12,423UYHFA,2025-10-31
+12,Marco,Marchesi,MaarchesiM,EaPHs2DcHtC2jq6s,operatore
+13,Andrea,Carzaniga,CarzaAndrea,BsSYRj5Gd3HCHwzv,operatore
+14,Francesco,Cantù,Ciccio33,T2FsVSH98H28VMuy,operatore
+15,Luigi,Frigerio,FrigiLuigi,aDkAy3mFZCRqHFTq,operatore
+16,Alessandro,Stucchi,StucchiAlex,nm6bEDPcBCmSTHyA,operatore
+17,Roberto,Redaelli,RedaRoberto,ttZQCaUwBNc8auqn,operatore
+18,Luca,Pirola,PiroLuca,tHBFsH8ry5t3ZwRf,operatore
+19,Antonio,Crippa,AntonioCrippa,qv2XhqR5q45qJP8N,operatore
+20,Giovanni,Ravasi,RavanaGiò,Euhzxf3NDusY8sGB,amministratore
+21,Fausto,Platini,FaustoPlat,NcNB47Lf4eQyH9Af,amministratore
+22,Ludovica,Grisoni,GrisoniLudo,w5hqPLA5KrcPJ78Q,amministratore
+23,Lara,Dellucci,DellucciLar,T8JDR8hf5KxNPmhW,amministratore
+24,Nicolò,Pometta,Nikpom,2VfXkyctG8LU7hQJ,amministratore
+25,Manuel,Natta,nattaM,tfmLr59MEC57PQzJ,amministratore
+26,Ermanno,Simone,chief,yJGtWa5jAC5r3Gne,amministratore
+27,Giancarlo,Prati,GiancArlo,6fw9GDjLxDEjfzKZ,operatore
+28,OP,OP,op,op,operatore
+29,cl,cl,cl,cl,cliente,VMTFRZ68B04L611D,1997-03-12,423UYHFA,2025-10-31

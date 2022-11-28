@@ -1,0 +1,7 @@
+8
+1,0,Versatili;spaziose;ecc,berlina
+2,0,belli;grandi;aggettivo2;aggettivo3,suv
+3,0,aggettivo1;aggettivo2;,coupè
+5,1,aggfgieguif;bghbigregbi;ghuirbiuvuib,furgone
+6,0,fegwuyugyfsdfusdyg;ugfeuigfuigfs;,aereo
+7,2,besafheogf;fseifugs;hifsoefhgos,pesceCane

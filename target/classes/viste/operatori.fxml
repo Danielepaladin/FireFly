@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="808.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.firefly.controller.OperatoriController">
+   <children>
+      <Label fx:id="titoloLabel" prefHeight="35.0" prefWidth="214.0" text="Gestione Operatori:">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator prefHeight="13.0" prefWidth="808.0" />
+      <Button mnemonicParsing="false" onAction="#aggiungiOperatoreAction" text="Aggiungi Operatore">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+      </Button>
+      <Separator prefHeight="13.0" prefWidth="808.0" />
+      <TableView fx:id="operatoriTable" prefHeight="384.0" prefWidth="808.0">
+        <columns>
+          <TableColumn fx:id="nomeTableColumn" prefWidth="130.0" text="Nome" />
+          <TableColumn fx:id="cognomeTableColumn" prefWidth="130.0" text="Cognome" />
+            <TableColumn fx:id="usernameTableColumn" prefWidth="130.0" text="Username" />
+            <TableColumn fx:id="modificaTableColumn" prefWidth="100.0" text="Modifica" />
+            <TableColumn fx:id="eliminaTableColumn" prefWidth="100.0" text="Elimina" />
+        </columns>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </TableView>
+   </children>
+</VBox>

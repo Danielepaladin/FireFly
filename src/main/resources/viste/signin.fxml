@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="1026.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.firefly.controller.SigninController">
+   <children>
+      <ImageView fitHeight="578.0" fitWidth="1026.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../immagini/sfondo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="148.0" fitWidth="381.0" layoutX="14.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../immagini/fireflylogo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nome" layoutX="806.0" layoutY="94.0" prefHeight="27.0" prefWidth="176.0" promptText="Nome" style="-fx-border-color: #9757a3;" />
+      <TextField fx:id="cognome" layoutX="806.0" layoutY="134.0" prefHeight="27.0" prefWidth="176.0" promptText="Cognome" style="-fx-border-color: #9757a3;" />
+      <TextField fx:id="numeroPatente" layoutX="806.0" layoutY="303.0" prefHeight="27.0" prefWidth="176.0" promptText="Numero Patente" style="-fx-border-color: #9757a3;" />
+      <TextField fx:id="codiceFiscale" layoutX="806.0" layoutY="390.0" prefHeight="27.0" prefWidth="176.0" promptText="Codice Fiscale" style="-fx-border-color: #9757a3;" />
+      <DatePicker fx:id="dataDiNascita" layoutX="806.0" layoutY="262.0" prefHeight="27.0" prefWidth="176.0" promptText="Data di Nascita" style="-fx-border-color: #9757a3;" />
+      <DatePicker fx:id="scadenzaPatente" layoutX="806.0" layoutY="347.0" promptText="Scadenza Patente" style="-fx-border-color: #9757a3;" />
+      <Button fx:id="signinButton" layoutX="806.0" layoutY="470.0" mnemonicParsing="false" onAction="#signinAction" prefHeight="27.0" prefWidth="176.0" style="-fx-border-color: #9757a3; -fx-background-color: #00000000;" text="Iscriviti!" textFill="#9757a3">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <TextField fx:id="username" layoutX="806.0" layoutY="175.0" prefHeight="27.0" prefWidth="176.0" promptText="Username" style="-fx-border-color: #9757a3;" />
+      <PasswordField fx:id="password" layoutX="806.0" layoutY="216.0" prefHeight="25.0" prefWidth="176.0" promptText="Password" style="-fx-border-color: #9757a3;" />
+      <ImageView fx:id="indietro" fitHeight="55.0" fitWidth="89.0" layoutX="48.0" layoutY="505.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#indietro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../immagini/indietrobianca.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="errorLabel" layoutX="712.0" layoutY="428.0" prefHeight="27.0" prefWidth="282.0" textFill="#9757a3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

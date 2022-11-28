@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="1026.0" style="-fx-border-color: #9757a3; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.firefly.controller.LayoutController">
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #9757a3;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="107.0" fitWidth="237.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../immagini/fireflylogo.png" />
+               </image>
+            </ImageView>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" />
+            <Separator orientation="VERTICAL" prefHeight="99.0" prefWidth="925.0" visible="false" />
+            <ImageView fx:id="esci" fitHeight="80.0" fitWidth="79.0" onMouseClicked="#esciAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../immagini/logout.png" />
+               </image>
+            </ImageView>
+            <Separator orientation="VERTICAL" prefHeight="99.0" prefWidth="22.0" />
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox fx:id="menuBar" prefHeight="478.0" prefWidth="218.0" style="-fx-border-color: #9757a3;" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>

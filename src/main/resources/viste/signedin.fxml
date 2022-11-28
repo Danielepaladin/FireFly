@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="1026.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.firefly.controller.SignedinController">
+   <children>
+      <ImageView fitHeight="578.0" fitWidth="1026.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../immagini/sfondo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="372.0" layoutX="14.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../immagini/fireflylogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="599.0" layoutY="353.0" text="Ti sei iscritto correttamente a FireFly!" textFill="#9757a3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="indietro" layoutX="656.0" layoutY="433.0" mnemonicParsing="false" onAction="#indietro" prefHeight="41.0" prefWidth="292.0" style="-fx-border-color: #9757a3; -fx-background-color: transparent;" text="Torna alla schermata di login" textFill="#9757a3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="808.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.disim.oop.firefly.controller.FeedbackController">
+   <children>
+      <Label fx:id="titoloLabel" prefHeight="35.0" prefWidth="214.0" text="FeedBacks:">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator prefHeight="13.0" prefWidth="808.0" />
+      <TableView fx:id="feedbackTableView" prefHeight="420.0" prefWidth="788.0">
+        <columns>
+          <TableColumn fx:id="clienteTableColumn" prefWidth="143.0" text="Cliente" />
+          <TableColumn fx:id="veicoloTableColumn" prefWidth="117.0" text="Veicolo" />
+            <TableColumn fx:id="valutazioneTableColumn" prefWidth="155.2000732421875" text="Valutazione" />
+            <TableColumn fx:id="testoTableColumn" prefWidth="363.2001037597656" text="Testo" />
+        </columns>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </TableView>
+   </children>
+</VBox>
